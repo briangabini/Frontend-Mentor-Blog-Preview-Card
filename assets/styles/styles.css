@@ -36,29 +36,36 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 @font-face {
-    font-family: 'Figtree';
+    font-family: 'Figtree', sans-serif;
     font-style: normal;
     font-weight: 800;
     src: url('../fonts/static/Figtree-ExtraBold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Figtree';
+    font-family: 'Figtree', sans-serif;
     font-style: normal;
     font-weight: 600;
     src: url('../fonts/static/Figtree-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Figtree';
+    font-family: 'Figtree', sans-serif;
     font-style: italic;
     font-weight: 100 900;
     src: url('../fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Figtree';
+    font-family: 'Figtree', sans-serif;
     font-style: normal;
     font-weight: 100 900;
     src: url('../fonts/Figtree-VariableFont_wght.ttf') format('truetype');
 }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Figtree', sans-serif;
+}
+
